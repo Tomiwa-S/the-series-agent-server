@@ -156,7 +156,7 @@ app.get("/search/movie/:title/:page",async(req,res)=>{
         data: response,
         message: pages,
       });
-    res.send(response);
+   
 });
 app.get("/",(req,res)=>{
     res.send("Server is running");
